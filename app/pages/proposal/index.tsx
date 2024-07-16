@@ -3,8 +3,7 @@ import { AppBar } from "../../components/AppBar";
 import Header from "../../components/header/Header";
 import styles from "../../styles/Home.module.css";
 import { FormControl, FormLabel, Box, Stack, Input, Button } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
-import { CreateVote } from "../helpers/ProposalHelper";
+import { useState } from "react";
 
 export default function Proposal() {
   const [title, setTitle] = useState();
